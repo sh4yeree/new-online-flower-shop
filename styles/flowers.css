@@ -444,12 +444,14 @@ width: 400px;
     justify-content: space-around;
 }
 .custom-name{
-    color:#E55473;
+    color:#111010;
 text-align: center;
 font-family: josefin sans;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: 35px;
+text-decoration-line: underline;
+text-decoration-color:#E55473;
 
 }
