@@ -157,66 +157,31 @@ font-weight: 700;
 line-height: 35px;
 text-decoration-line: underline;
 }
-.sale-title{
-    color: #272727;
-font-family: josefin sans;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-padding-top: 150px;
-padding-left: 200px;
-display:flex;
-/* color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-display: flex; */
-}
-#off{
-    color: #E55473;
-    font-family: josefin sans;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-}
+
 .sale{
+    display: flex;
     border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
-/* display: flex; */
-
-
-
-
+margin-top: 80px;
+}
+.sale-img{
+    padding-left: 150px;
+    width: 350px;
 }
 .sale-description{
-    color: rgba(39, 39, 39, 0.60);
+    display: flex;
+width: 594px;
+flex-direction: column;
+flex-shrink: 0;
+color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-family: josefin sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
-display: flex;
-width: 594px;
-flex-direction: column;
-flex-shrink: 0;
-padding-left: 200px;
-padding-top: 0px;
-/* display: flex;
-width: 594px;
-flex-direction: column;
-flex-shrink: 0;
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; */
+padding-left: 180px;
+
 }
 .sale-btn{
     color: #FFF;
@@ -231,28 +196,33 @@ align-items: flex-start;
 gap: 10px;
 border-radius: 8px;
 border-color: #E55473;
-background: #E55473; 
-margin-left: 400px;
-margin-bottom: 80px;
-/* display: inline-flex;
-padding: 20px 43px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 8px;
 background: #E55473;
-color: #FFF;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal; */
+margin-left: 400px;
+margin-bottom: 100px;
 }
-.sale-img{
-    padding-left: 850px;
+.sale-title{
+    color: #272727;
+font-family: josefin sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 150px;
+padding-left: 200px;
+display:flex;
+
+}
+#off{
+    color: #E55473;
+    font-family: josefin sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
    
     
-   
-}
+
 .instagram-description{
     display: flex;
     width: 594px;
