@@ -1,16 +1,16 @@
-*{
+body{
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Rasa', serif;
     }
 .header{
     background: rgba(229, 84, 115, 0.10);
-    background-size: 500px;
-    height: 500px;
-    margin: auto;
+    /* background-size: 500px;
+    height: 500px; */
+    /* margin: auto;
     flex-shrink: 0;
     border: 0px;
-    padding: 0px;
+    padding: 0px; */
     
 }
 .banner-title{
@@ -23,19 +23,48 @@ width: 708px;
 flex-direction: column;
 flex-shrink: 0;
 padding-top: 50px;
-padding-left: 50px;
+padding-left: 60px;
+padding-bottom: 5px;
 }
 .banner-content{
+   
+}
+.banner-description{
+    padding-left:60px;
     display: flex;
+    width: 634px;
+flex-direction: column;
+flex-shrink: 0;
+color: rgba(39, 39, 39, 0.60);
+font-weight: 400;
+line-height: 20px;
+padding-top: 0px;
+font-family: josefin sans;
 
 }
+
 .banner-image{
     /* display: inline-block; */
     size: 50px;
-    width: 400px;
-    padding-left: 200px;
-   height: 500px;
+    width: 420px;
+    padding-left: 100px;
+   height: 600px;
+   padding-bottom: 0px;
 }
 .banner{
     display: flex;
+    padding-left: 30px;
+    
+}
+.banner-btn{
+    margin-left: 60px;
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+background: #E55473;
+color: #FFFFFF;
+border-color: #E55473;
+box-shadow: none;
+margin-bottom: 0px;
+font-family: josefin sans;
 }
